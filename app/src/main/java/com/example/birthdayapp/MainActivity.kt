@@ -59,7 +59,7 @@ fun GreetingText(message: String, from: String, modifier: Modifier = Modifier) {
             lineHeight = 80.sp,
             textAlign = TextAlign.Center,
             // Solid element background color
-            modifier = Modifier.background(color = Color.Green)
+            // modifier = Modifier.background(color = Color.Green)
         )
         Text(
             text = from,
